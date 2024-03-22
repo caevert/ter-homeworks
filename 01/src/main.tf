@@ -1,4 +1,4 @@
-terraform {
+1terraform {
   required_providers {
     docker = {
       source  = "kreuzwerker/docker"

@@ -1,4 +1,4 @@
-#output "test_output" {
+output "test_output" {
 
   value = {
     web = {

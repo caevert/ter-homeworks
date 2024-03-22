@@ -1,4 +1,4 @@
-#variable "vm_web_family" {
+variable "vm_web_family" {
   type        = string
   default     = "ubuntu-2004-lts"
   description = "VM web image family"

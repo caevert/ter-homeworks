@@ -1,4 +1,4 @@
-resource "yandex_compute_instance" "db" {
+1resource "yandex_compute_instance" "db" {
   for_each   = {
     for index, vm in var.each_vm:
     vm.vm_name => vm

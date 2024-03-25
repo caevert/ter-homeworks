@@ -1,5 +1,5 @@
 ---
-- name: test
+- name: test1
   gather_facts: false
   hosts: webservers
   vars:

@@ -1,4 +1,4 @@
-1output "test_output" {
+output "test_output" {
 
   value = [ for i in concat(yandex_compute_instance.web, values(yandex_compute_instance.db)):
       {

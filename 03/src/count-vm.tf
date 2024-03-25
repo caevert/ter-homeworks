@@ -1,4 +1,4 @@
-1resource "yandex_compute_instance" "web" {
+resource "yandex_compute_instance" "web" {
   count = var.count_vm_num
 
   depends_on = [yandex_compute_instance.db]

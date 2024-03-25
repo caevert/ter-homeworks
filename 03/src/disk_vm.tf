@@ -1,4 +1,4 @@
-resource "yandex_compute_disk" "extra-disk" {
+1resource "yandex_compute_disk" "extra-disk" {
   count = var.extra_disk_spec.count
   name       = "${var.extra_disk_spec.name}-${count.index}"
   type       = "network-hdd"

@@ -29,6 +29,7 @@ resource "yandex_compute_instance" "web" {
   network_interface {
     subnet_id = yandex_vpc_subnet.develop.id
     nat       = var.count_vm.nat
+    security_group_ids = [yandex_vpc_security_group.example.id]
   }
   allow_stopping_for_update = var.count_vm.allow_stopping
 }
